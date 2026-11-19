@@ -60,11 +60,21 @@ struct AlbumStore {
         try save(state, reloadWidgets: reloadWidgets)
         return state
     }
-    static func image(_ index: Int, state: AlbumState) -> UIImage? {
+    static func image(_ index: Int, state: AlbumState, maximumPixelSize: Int? = nil) -> UIImage? {
         if !state.photos.isEmpty {
             let name = state.photos[index % state.photos.count]
             guard !name.contains("/"), !name.contains(".."), let root = try? directory else { return nil }
-            return UIImage(contentsOfFile: root.appendingPathComponent(name).path)
+            let url = root.appendingPathComponent(name)
+            if let maximumPixelSize {
+                guard let source = CGImageSourceCreateWithURL(url as CFURL, nil),
+                      let thumbnail = CGImageSourceCreateThumbnailAtIndex(source, 0, [
+                        kCGImageSourceCreateThumbnailFromImageAlways: true,
+                        kCGImageSourceCreateThumbnailWithTransform: true,
+                        kCGImageSourceThumbnailMaxPixelSize: maximumPixelSize
+                      ] as CFDictionary) else { return nil }
+                return UIImage(cgImage: thumbnail)
+            }
+            return UIImage(contentsOfFile: url.path)
         }
         return UIImage(named: "widget_paging_card_\((index + 4) % 8 + 1)", in: .main, compatibleWith: nil)
     }

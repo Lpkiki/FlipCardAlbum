@@ -6,6 +6,7 @@ struct SleevePage: View {
     let state: AlbumState
     let page: Int
     let side: Int
+    var isWidget = false
     var body: some View {
         GeometryReader { proxy in
             let unit = proxy.size.width / 164
@@ -19,7 +20,7 @@ struct SleevePage: View {
                 HStack(spacing: 8 * unit) {
                     ForEach(0..<2) { slot in
                         Group {
-                            if let image = AlbumStore.image(page * 4 + side * 2 + slot, state: state) {
+                            if let image = AlbumStore.image(page * 4 + side * 2 + slot, state: state, maximumPixelSize: isWidget ? 300 : nil) {
                                 Image(uiImage: image).resizable().albumFullColor().scaledToFill()
                             } else {
                                 Color.gray.opacity(0.15)
@@ -62,7 +63,7 @@ struct AlbumBook: View {
         return ZStack {
             ForEach(0..<2) { bank in
                 let isActive = bank == activeBank
-                SleevePage(state: state, page: isActive ? state.page : previousPage, side: side)
+                SleevePage(state: state, page: isActive ? state.page : previousPage, side: side, isWidget: isWidget)
                     .scaleEffect(x: isActive ? 1 : 0.001, y: 1, anchor: side == 0 ? .trailing : .leading)
                     .animation(bankAnimation(isActive: isActive, side: side), value: state.revision)
                     .zIndex((side == incomingSide) == isActive ? 1 : 0)
@@ -96,6 +97,7 @@ struct AlbumBook: View {
         }
         .accessibilityElement(children: .ignore)
         .accessibilityLabel("翻页卡册，第\(state.page + 1)页")
+        .accessibilityValue("更新\(state.revision)")
     }
 }
 

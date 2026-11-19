@@ -13,7 +13,7 @@ settings:
     TARGETED_DEVICE_FAMILY: '1,2'
     GENERATE_INFOPLIST_FILE: YES
     MARKETING_VERSION: '1.0.0'
-    CURRENT_PROJECT_VERSION: 11
+    CURRENT_PROJECT_VERSION: 12
     INFOPLIST_KEY_CFBundleDisplayName: 翻页卡册
     INFOPLIST_KEY_UILaunchScreen_Generation: YES
     INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES

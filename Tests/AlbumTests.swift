@@ -3,6 +3,14 @@ import UIKit
 @testable import FlipCardAlbum
 
 final class AlbumTests: XCTestCase {
+    func testCurrentSharedAlbumDiagnostics() throws {
+        let state = try AlbumStore.load()
+        print("ALBUM_DIAG page=\(state.page) revision=\(state.revision) photos=\(state.photos.count) hidden=\(state.transparent)")
+        for i in 0..<min(8, max(4, state.photos.count)) {
+            let cg = AlbumStore.image(i, state: state)?.cgImage
+            print("IMAGE_DIAG slot=\(i) width=\(cg?.width ?? 0) height=\(cg?.height ?? 0)")
+        }
+    }
     func testDeviceAnimationEnvironment() {
         print("ANIMATION_ENV reduceMotion=\(UIAccessibility.isReduceMotionEnabled) lowPower=\(ProcessInfo.processInfo.isLowPowerModeEnabled) maxFPS=\(UIScreen.main.maximumFramesPerSecond) os=\(UIDevice.current.systemVersion)")
     }

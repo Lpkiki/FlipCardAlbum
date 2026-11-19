@@ -72,12 +72,18 @@ final class WidgetHostTests: XCTestCase {
             XCUIDevice.shared.press(.home)
             home.activate()
             try ensureHostedWidget()
+            let album = home.descendants(matching: .any).matching(NSPredicate(format: "label BEGINSWITH %@", "翻页卡册，第")).firstMatch
+            XCTAssertTrue(album.waitForExistence(timeout: 8))
+            let initial = album.value as? String
             capture(hidden ? "hidden-before" : "visible-before")
             home.buttons["下一页"].firstMatch.tap()
-            Thread.sleep(forTimeInterval: 3)
+            expectation(for: NSPredicate(format: "value != %@", initial ?? ""), evaluatedWith: album)
+            waitForExpectations(timeout: 12)
             capture(hidden ? "hidden-next" : "visible-next")
+            let afterNext = album.value as? String ?? ""
             home.buttons["上一页"].firstMatch.tap()
-            Thread.sleep(forTimeInterval: 3)
+            expectation(for: NSPredicate(format: "value != %@", afterNext), evaluatedWith: album)
+            waitForExpectations(timeout: 12)
             capture(hidden ? "hidden-previous" : "visible-previous")
         }
     }

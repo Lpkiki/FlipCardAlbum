@@ -30,10 +30,18 @@ struct AlbumWidgetView: View {
         .containerBackground(for: .widget) {
             if !entry.state.transparent,
                let image = UIImage(named: "widget_paging_card_bg", in: .main, compatibleWith: nil) {
-                Image(uiImage: image).resizable()
+                Image(uiImage: Self.backdrop(image)).resizable()
             } else {
                 Color.clear
             }
+        }
+    }
+    private static func backdrop(_ image: UIImage) -> UIImage {
+        let format = UIGraphicsImageRendererFormat()
+        format.scale = 1
+        let size = CGSize(width: 720, height: 340)
+        return UIGraphicsImageRenderer(size: size, format: format).image { _ in
+            image.draw(in: CGRect(origin: .zero, size: size))
         }
     }
     /// The host owns the static backdrop; only the pages belong to the animated tree.
