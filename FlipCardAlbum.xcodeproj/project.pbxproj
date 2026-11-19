@@ -1,0 +1,861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		154D1D367DCF658C2F9020C6 /* widget_paging_card_15.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9382E1F0EC34ECC5D0772D /* widget_paging_card_15.png */; };
+		17FE8490FB513B06CBE36CE3 /* widget_paging_card_16.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB1F751E10625CD9B3E79A8 /* widget_paging_card_16.png */; };
+		19440A4FE08C662CB0449433 /* widget_paging_card_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E78B1D7C448F568708C0977 /* widget_paging_card_bg.png */; };
+		19D16B38DF02AF6EB9F912E2 /* widget_paging_card_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E1B9B687F1407B3F7F031B32 /* widget_paging_card_1.png */; };
+		1FF5F473ED25BF9C6A746658 /* page-turn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B6F0E4C7E9FE61CE922C447 /* page-turn.mp3 */; };
+		20622B587C6ED423FCE45EC5 /* widget_paging_card_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C756EB412DE574FA209710 /* widget_paging_card_5.png */; };
+		20C6C81C59884074004E59EE /* widget_paging_card_18.png in Resources */ = {isa = PBXBuildFile; fileRef = E8FCDA25CD6E5B461C524787 /* widget_paging_card_18.png */; };
+		227CA69234E0874049EA7D56 /* widget_paging_card_bottom_l.png in Resources */ = {isa = PBXBuildFile; fileRef = EACA04117EFB4EE97E9013A5 /* widget_paging_card_bottom_l.png */; };
+		22F98F99B7EC12040D6E03E2 /* widget_paging_card_8.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9A1337DAD54AC59470ED63 /* widget_paging_card_8.png */; };
+		243B2913693D667FBAAC18D3 /* widget_paging_card_16.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB1F751E10625CD9B3E79A8 /* widget_paging_card_16.png */; };
+		26F6920BD52DD9A23CA4295A /* widget_paging_card_4.png in Resources */ = {isa = PBXBuildFile; fileRef = E4FC269926B8D1230E52B7DA /* widget_paging_card_4.png */; };
+		2713A2475CDA09C3C535D676 /* AlbumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADFE99B47F69DAAC6BD690E /* AlbumUITests.swift */; };
+		27F772EB488557FAB0C67EAA /* widget_paging_card_8.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9A1337DAD54AC59470ED63 /* widget_paging_card_8.png */; };
+		2821A2C2AC7280D01C4B41BC /* widget_paging_card_paper_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C412EDAA55CFB48F122E6D /* widget_paging_card_paper_l.png */; };
+		289ADF7D37430AA5AB85716B /* AlbumWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E8D0BE6FAA4F4E9941E70010 /* AlbumWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2E9BC543415A8FC6BD004D39 /* widget_paging_card_paper.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD8E6FB0AE49ACE5F6597F2 /* widget_paging_card_paper.png */; };
+		342929F36BC536FA3F7CF0F0 /* widget_paging_card_top_l.png in Resources */ = {isa = PBXBuildFile; fileRef = A66F684F9D0C01D41C46E3EA /* widget_paging_card_top_l.png */; };
+		3F00AC7E2B5328D3AA9B47C5 /* widget_paging_card_15.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9382E1F0EC34ECC5D0772D /* widget_paging_card_15.png */; };
+		43B901F02B743B2BB8C5E614 /* widget_paging_card_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E1B9B687F1407B3F7F031B32 /* widget_paging_card_1.png */; };
+		4D5321A53CFBCE33E3164A54 /* widget_paging_card_paper_m.png in Resources */ = {isa = PBXBuildFile; fileRef = 995F47346AD255D556C6CB9D /* widget_paging_card_paper_m.png */; };
+		50342565836B894C3620F20C /* widget_paging_card_top_m.png in Resources */ = {isa = PBXBuildFile; fileRef = E206289C04CD21FE79486F47 /* widget_paging_card_top_m.png */; };
+		56AE1F08002DB4F967DEBD49 /* widget_paging_card_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E78B1D7C448F568708C0977 /* widget_paging_card_bg.png */; };
+		56B9BBCF7C19897B463EADED /* widget_paging_card_paper.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD8E6FB0AE49ACE5F6597F2 /* widget_paging_card_paper.png */; };
+		57DC2E759BEB18DEA18F73DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E21762129250303B92F8D6D /* Assets.xcassets */; };
+		605A8DF0407D52E0E3C27DD7 /* AlbumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C8540BB75675CAA15856DD /* AlbumStore.swift */; };
+		615BFAF6CB185375A8F88F59 /* widget_paging_card_18.png in Resources */ = {isa = PBXBuildFile; fileRef = E8FCDA25CD6E5B461C524787 /* widget_paging_card_18.png */; };
+		69EADE0BD8D39877271EA011 /* widget_paging_card_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E7E0A0884313EDFC22349C7 /* widget_paging_card_13.png */; };
+		72D4659356243A4BEC0508A5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 853D6DF0B7011EF5C6FD4C93 /* README.md */; };
+		782EFA8BD9887395CD88A58F /* AlbumBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63558C0047872174585107C0 /* AlbumBook.swift */; };
+		7F67CA35656074EE4B6B4AF9 /* widget_paging_card_14.png in Resources */ = {isa = PBXBuildFile; fileRef = C7F4FAEC44FA58D3167078B4 /* widget_paging_card_14.png */; };
+		8DB92C69BD976138812ECC0D /* widget_paging_card_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C756EB412DE574FA209710 /* widget_paging_card_5.png */; };
+		9184A122D41DBE772E2A6297 /* widget_paging_card_6.png in Resources */ = {isa = PBXBuildFile; fileRef = A03B79AFCF5362DCE54F56AA /* widget_paging_card_6.png */; };
+		934C02FDD5A890AF8823F959 /* AlbumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C8540BB75675CAA15856DD /* AlbumStore.swift */; };
+		A057838DFE236E578363E76A /* widget_paging_card_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D182FE0ACEAA6007A01FBFE /* widget_paging_card_7.png */; };
+		A1664B72AE8FE5079C56468D /* WidgetHostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30992F39D1CBB627C2775499 /* WidgetHostTests.swift */; };
+		A598504E465E0A885896FF10 /* TurnPageIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B94FD3B16D7DF9C0C2DBCC /* TurnPageIntent.swift */; };
+		A5BBD0F10347F34C8C414FBD /* widget_paging_card_12.png in Resources */ = {isa = PBXBuildFile; fileRef = B6FA00452B02F0C992E0FD4D /* widget_paging_card_12.png */; };
+		A69504D37D59E6CE3F11AF1A /* widget_paging_card_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A3808057FC13FA5D161EB /* widget_paging_card_11.png */; };
+		A95F9987F7F76C5B5F17BEBC /* widget_paging_card_bottom_l.png in Resources */ = {isa = PBXBuildFile; fileRef = EACA04117EFB4EE97E9013A5 /* widget_paging_card_bottom_l.png */; };
+		A96077B9AF44247CBD90170E /* widget_paging_card_top_l.png in Resources */ = {isa = PBXBuildFile; fileRef = A66F684F9D0C01D41C46E3EA /* widget_paging_card_top_l.png */; };
+		A96A734CBB90131B9B334DBF /* widget_paging_card_top_m.png in Resources */ = {isa = PBXBuildFile; fileRef = E206289C04CD21FE79486F47 /* widget_paging_card_top_m.png */; };
+		AC9E37004FFA2D03656F6E0C /* widget_paging_card_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A3808057FC13FA5D161EB /* widget_paging_card_11.png */; };
+		ACBB42E40587E9B8A08D9319 /* AlbumWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B8E3A9AA26C2553CC6C6C /* AlbumWidget.swift */; };
+		B2900A22FCB3CBFDF0972D99 /* widget_paging_card_paper_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C412EDAA55CFB48F122E6D /* widget_paging_card_paper_l.png */; };
+		B89F2DE3DDFBB9C70C621086 /* widget_paging_card_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9144F177BA960D57ED2D5E67 /* widget_paging_card_3.png */; };
+		BEE74610C53F80F404AB164E /* widget_paging_card_14.png in Resources */ = {isa = PBXBuildFile; fileRef = C7F4FAEC44FA58D3167078B4 /* widget_paging_card_14.png */; };
+		BFE0841AEB10C4BEB7CDDBF3 /* widget_paging_card_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E7E0A0884313EDFC22349C7 /* widget_paging_card_13.png */; };
+		C6D905E8F41A298B9235287F /* widget_paging_card_6.png in Resources */ = {isa = PBXBuildFile; fileRef = A03B79AFCF5362DCE54F56AA /* widget_paging_card_6.png */; };
+		C86F73F35B472BC4E9111DEB /* widget_paging_card_12.png in Resources */ = {isa = PBXBuildFile; fileRef = B6FA00452B02F0C992E0FD4D /* widget_paging_card_12.png */; };
+		CCFD25EA8D734B11B5B324A8 /* AlbumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB52CD7365221C67F6642EF /* AlbumTests.swift */; };
+		D57EDB369771E34C0B4A1B67 /* widget_paging_card_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B7B90269DD561072CC1EC6D /* widget_paging_card_17.png */; };
+		D6C20B8318F6CCBDD81D236B /* widget_paging_card_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D3E04966B70F6C829728A28 /* widget_paging_card_2.png */; };
+		D71F15340C020636D7C4B99C /* widget_paging_card_4.png in Resources */ = {isa = PBXBuildFile; fileRef = E4FC269926B8D1230E52B7DA /* widget_paging_card_4.png */; };
+		DE2C43D87D605D65FEDE4C69 /* FlipCardAlbumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D5C1381708B9A43753FFD /* FlipCardAlbumApp.swift */; };
+		E2328BBE13BEBC90DBDF069D /* page-turn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B6F0E4C7E9FE61CE922C447 /* page-turn.mp3 */; };
+		E288AF4CC3FD5D0A911C4745 /* AlbumBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63558C0047872174585107C0 /* AlbumBook.swift */; };
+		E7D7EB0152CB633D720B3646 /* widget_paging_card_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D3E04966B70F6C829728A28 /* widget_paging_card_2.png */; };
+		EB8CA56BCFB6F9D686E6BD7F /* widget_paging_card_bottom_m.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1AA8369B11543A1205E4F8 /* widget_paging_card_bottom_m.png */; };
+		F117EB03DF9ABB5C73679F61 /* widget_paging_card_paper_m.png in Resources */ = {isa = PBXBuildFile; fileRef = 995F47346AD255D556C6CB9D /* widget_paging_card_paper_m.png */; };
+		F625943B6F183A56303D16C7 /* widget_paging_card_bottom_m.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1AA8369B11543A1205E4F8 /* widget_paging_card_bottom_m.png */; };
+		F983961741A4F0D96714463D /* widget_paging_card_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9144F177BA960D57ED2D5E67 /* widget_paging_card_3.png */; };
+		FCFF97F0A9A237A374BA853A /* widget_paging_card_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D182FE0ACEAA6007A01FBFE /* widget_paging_card_7.png */; };
+		FE70768A0EEA183A528F911D /* widget_paging_card_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B7B90269DD561072CC1EC6D /* widget_paging_card_17.png */; };
+		FFC81A0ECD27CA3796E14292 /* TurnPageIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B94FD3B16D7DF9C0C2DBCC /* TurnPageIntent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A1432F3DA1A8BE31F620659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8930D7CA4585F5E56C68177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D10994F1313E58055509E4A0;
+			remoteInfo = FlipCardAlbum;
+		};
+		99E9DB4C93D4B6F84431F4FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8930D7CA4585F5E56C68177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D10994F1313E58055509E4A0;
+			remoteInfo = FlipCardAlbum;
+		};
+		AB02675FABA3EAFD99318111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8930D7CA4585F5E56C68177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 472E80099E1A6EFC9A6AEEE3;
+			remoteInfo = AlbumWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6C6C8EB55423B34191A52F41 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				289ADF7D37430AA5AB85716B /* AlbumWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0942B30422B76A45384AEAB6 /* AlbumUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = AlbumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10FE51AD69F9868625BC0427 /* AlbumTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = AlbumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC19C336585363482DA5992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		30992F39D1CBB627C2775499 /* WidgetHostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetHostTests.swift; sourceTree = "<group>"; };
+		42B94FD3B16D7DF9C0C2DBCC /* TurnPageIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnPageIntent.swift; sourceTree = "<group>"; };
+		4B7B90269DD561072CC1EC6D /* widget_paging_card_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_17.png; sourceTree = "<group>"; };
+		4E78B1D7C448F568708C0977 /* widget_paging_card_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_bg.png; sourceTree = "<group>"; };
+		5B3A38C899B6CA615534773E /* Album.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Album.entitlements; sourceTree = "<group>"; };
+		5F5D5C1381708B9A43753FFD /* FlipCardAlbumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipCardAlbumApp.swift; sourceTree = "<group>"; };
+		63558C0047872174585107C0 /* AlbumBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumBook.swift; sourceTree = "<group>"; };
+		69C756EB412DE574FA209710 /* widget_paging_card_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_5.png; sourceTree = "<group>"; };
+		6AB52CD7365221C67F6642EF /* AlbumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTests.swift; sourceTree = "<group>"; };
+		74C8540BB75675CAA15856DD /* AlbumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumStore.swift; sourceTree = "<group>"; };
+		7D3E04966B70F6C829728A28 /* widget_paging_card_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_2.png; sourceTree = "<group>"; };
+		7E1F7C007F2C373597DCD0D8 /* FlipCardAlbum.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FlipCardAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		853D6DF0B7011EF5C6FD4C93 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8A0A3808057FC13FA5D161EB /* widget_paging_card_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_11.png; sourceTree = "<group>"; };
+		8ADFE99B47F69DAAC6BD690E /* AlbumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumUITests.swift; sourceTree = "<group>"; };
+		8E21762129250303B92F8D6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90C412EDAA55CFB48F122E6D /* widget_paging_card_paper_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_paper_l.png; sourceTree = "<group>"; };
+		9144F177BA960D57ED2D5E67 /* widget_paging_card_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_3.png; sourceTree = "<group>"; };
+		995F47346AD255D556C6CB9D /* widget_paging_card_paper_m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_paper_m.png; sourceTree = "<group>"; };
+		9B6F0E4C7E9FE61CE922C447 /* page-turn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "page-turn.mp3"; sourceTree = "<group>"; };
+		9D182FE0ACEAA6007A01FBFE /* widget_paging_card_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_7.png; sourceTree = "<group>"; };
+		9E7E0A0884313EDFC22349C7 /* widget_paging_card_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_13.png; sourceTree = "<group>"; };
+		A03B79AFCF5362DCE54F56AA /* widget_paging_card_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_6.png; sourceTree = "<group>"; };
+		A66F684F9D0C01D41C46E3EA /* widget_paging_card_top_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_top_l.png; sourceTree = "<group>"; };
+		AF9382E1F0EC34ECC5D0772D /* widget_paging_card_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_15.png; sourceTree = "<group>"; };
+		B6FA00452B02F0C992E0FD4D /* widget_paging_card_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_12.png; sourceTree = "<group>"; };
+		C7F4FAEC44FA58D3167078B4 /* widget_paging_card_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_14.png; sourceTree = "<group>"; };
+		DEB1F751E10625CD9B3E79A8 /* widget_paging_card_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_16.png; sourceTree = "<group>"; };
+		E1B9B687F1407B3F7F031B32 /* widget_paging_card_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_1.png; sourceTree = "<group>"; };
+		E206289C04CD21FE79486F47 /* widget_paging_card_top_m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_top_m.png; sourceTree = "<group>"; };
+		E4FC269926B8D1230E52B7DA /* widget_paging_card_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_4.png; sourceTree = "<group>"; };
+		E8D0BE6FAA4F4E9941E70010 /* AlbumWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = AlbumWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8FCDA25CD6E5B461C524787 /* widget_paging_card_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_18.png; sourceTree = "<group>"; };
+		EACA04117EFB4EE97E9013A5 /* widget_paging_card_bottom_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_bottom_l.png; sourceTree = "<group>"; };
+		ECD8E6FB0AE49ACE5F6597F2 /* widget_paging_card_paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_paper.png; sourceTree = "<group>"; };
+		EF1AA8369B11543A1205E4F8 /* widget_paging_card_bottom_m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_bottom_m.png; sourceTree = "<group>"; };
+		F2ACE6255CBB98F29D9C57BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FA9A1337DAD54AC59470ED63 /* widget_paging_card_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_paging_card_8.png; sourceTree = "<group>"; };
+		FC5B8E3A9AA26C2553CC6C6C /* AlbumWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumWidget.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2E66A3B517476AEF92A4DF99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10FE51AD69F9868625BC0427 /* AlbumTests.xctest */,
+				0942B30422B76A45384AEAB6 /* AlbumUITests.xctest */,
+				E8D0BE6FAA4F4E9941E70010 /* AlbumWidget.appex */,
+				7E1F7C007F2C373597DCD0D8 /* FlipCardAlbum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3969C09DF2485C7607FA9122 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				FC5B8E3A9AA26C2553CC6C6C /* AlbumWidget.swift */,
+				1DC19C336585363482DA5992 /* Info.plist */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		5198696F77AFD72C51D91740 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6AB52CD7365221C67F6642EF /* AlbumTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		655C6F8B3B5D6DD5A8AB8AE6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5B3A38C899B6CA615534773E /* Album.entitlements */,
+				63558C0047872174585107C0 /* AlbumBook.swift */,
+				74C8540BB75675CAA15856DD /* AlbumStore.swift */,
+				42B94FD3B16D7DF9C0C2DBCC /* TurnPageIntent.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		686073C61290803E893FDCCC = {
+			isa = PBXGroup;
+			children = (
+				B6B3734B938948EBA061F260 /* App */,
+				B9217E7F873555948CC3B711 /* ReferenceAssets */,
+				655C6F8B3B5D6DD5A8AB8AE6 /* Shared */,
+				5198696F77AFD72C51D91740 /* Tests */,
+				8A99CE5BF191FB2E345979C0 /* UITests */,
+				3969C09DF2485C7607FA9122 /* Widget */,
+				2E66A3B517476AEF92A4DF99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A99CE5BF191FB2E345979C0 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8ADFE99B47F69DAAC6BD690E /* AlbumUITests.swift */,
+				853D6DF0B7011EF5C6FD4C93 /* README.md */,
+				30992F39D1CBB627C2775499 /* WidgetHostTests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		B6B3734B938948EBA061F260 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8E21762129250303B92F8D6D /* Assets.xcassets */,
+				5F5D5C1381708B9A43753FFD /* FlipCardAlbumApp.swift */,
+				F2ACE6255CBB98F29D9C57BC /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B9217E7F873555948CC3B711 /* ReferenceAssets */ = {
+			isa = PBXGroup;
+			children = (
+				9B6F0E4C7E9FE61CE922C447 /* page-turn.mp3 */,
+				E1B9B687F1407B3F7F031B32 /* widget_paging_card_1.png */,
+				7D3E04966B70F6C829728A28 /* widget_paging_card_2.png */,
+				9144F177BA960D57ED2D5E67 /* widget_paging_card_3.png */,
+				E4FC269926B8D1230E52B7DA /* widget_paging_card_4.png */,
+				69C756EB412DE574FA209710 /* widget_paging_card_5.png */,
+				A03B79AFCF5362DCE54F56AA /* widget_paging_card_6.png */,
+				9D182FE0ACEAA6007A01FBFE /* widget_paging_card_7.png */,
+				FA9A1337DAD54AC59470ED63 /* widget_paging_card_8.png */,
+				8A0A3808057FC13FA5D161EB /* widget_paging_card_11.png */,
+				B6FA00452B02F0C992E0FD4D /* widget_paging_card_12.png */,
+				9E7E0A0884313EDFC22349C7 /* widget_paging_card_13.png */,
+				C7F4FAEC44FA58D3167078B4 /* widget_paging_card_14.png */,
+				AF9382E1F0EC34ECC5D0772D /* widget_paging_card_15.png */,
+				DEB1F751E10625CD9B3E79A8 /* widget_paging_card_16.png */,
+				4B7B90269DD561072CC1EC6D /* widget_paging_card_17.png */,
+				E8FCDA25CD6E5B461C524787 /* widget_paging_card_18.png */,
+				4E78B1D7C448F568708C0977 /* widget_paging_card_bg.png */,
+				EACA04117EFB4EE97E9013A5 /* widget_paging_card_bottom_l.png */,
+				EF1AA8369B11543A1205E4F8 /* widget_paging_card_bottom_m.png */,
+				90C412EDAA55CFB48F122E6D /* widget_paging_card_paper_l.png */,
+				995F47346AD255D556C6CB9D /* widget_paging_card_paper_m.png */,
+				ECD8E6FB0AE49ACE5F6597F2 /* widget_paging_card_paper.png */,
+				A66F684F9D0C01D41C46E3EA /* widget_paging_card_top_l.png */,
+				E206289C04CD21FE79486F47 /* widget_paging_card_top_m.png */,
+			);
+			path = ReferenceAssets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		472E80099E1A6EFC9A6AEEE3 /* AlbumWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CFCDEAF0D14AC0A2A96893 /* Build configuration list for PBXNativeTarget "AlbumWidget" */;
+			buildPhases = (
+				C39AE7CD3C01CAC7EE50350C /* Sources */,
+				F1E079F58F478745ED0E5C8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlbumWidget;
+			packageProductDependencies = (
+			);
+			productName = AlbumWidget;
+			productReference = E8D0BE6FAA4F4E9941E70010 /* AlbumWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		81CDCD5A43C4C0ACBBEB4CEB /* AlbumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CF1795CC77273867C179BC1 /* Build configuration list for PBXNativeTarget "AlbumTests" */;
+			buildPhases = (
+				F4084C0C8A19BF946B5D9FF7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3C8A59C48525DB304642E7A /* PBXTargetDependency */,
+			);
+			name = AlbumTests;
+			packageProductDependencies = (
+			);
+			productName = AlbumTests;
+			productReference = 10FE51AD69F9868625BC0427 /* AlbumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D10994F1313E58055509E4A0 /* FlipCardAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02A41264CD18E63954D7F91 /* Build configuration list for PBXNativeTarget "FlipCardAlbum" */;
+			buildPhases = (
+				D91EC94EA03CFCEEE6E6B40C /* Sources */,
+				A2EE0B7B3819E25EB2257716 /* Resources */,
+				6C6C8EB55423B34191A52F41 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59A9748DFFA651023E1F32A7 /* PBXTargetDependency */,
+			);
+			name = FlipCardAlbum;
+			packageProductDependencies = (
+			);
+			productName = FlipCardAlbum;
+			productReference = 7E1F7C007F2C373597DCD0D8 /* FlipCardAlbum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E31E70A2D4A8841FB2CCDCD4 /* AlbumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B79C3CA44886B526BB03BE0 /* Build configuration list for PBXNativeTarget "AlbumUITests" */;
+			buildPhases = (
+				F93E8AC37FE31F1FA28E2FC3 /* Sources */,
+				7117058BD5F702B411B9233E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9018CD7AB1812F9D84B84E7 /* PBXTargetDependency */,
+			);
+			name = AlbumUITests;
+			packageProductDependencies = (
+			);
+			productName = AlbumUITests;
+			productReference = 0942B30422B76A45384AEAB6 /* AlbumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8930D7CA4585F5E56C68177 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					472E80099E1A6EFC9A6AEEE3 = {
+						DevelopmentTeam = F56Q47DAMX;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = "[\"com.apple.ApplicationGroups.iOS\": [\"enabled\": 1]]";
+					};
+					81CDCD5A43C4C0ACBBEB4CEB = {
+						DevelopmentTeam = F56Q47DAMX;
+						ProvisioningStyle = Automatic;
+					};
+					D10994F1313E58055509E4A0 = {
+						DevelopmentTeam = F56Q47DAMX;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = "[\"com.apple.ApplicationGroups.iOS\": [\"enabled\": 1]]";
+					};
+					E31E70A2D4A8841FB2CCDCD4 = {
+						DevelopmentTeam = F56Q47DAMX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D10994F1313E58055509E4A0;
+					};
+				};
+			};
+			buildConfigurationList = C5B21F765AAE6EA85CBC79DF /* Build configuration list for PBXProject "FlipCardAlbum" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 686073C61290803E893FDCCC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2E66A3B517476AEF92A4DF99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D10994F1313E58055509E4A0 /* FlipCardAlbum */,
+				472E80099E1A6EFC9A6AEEE3 /* AlbumWidget */,
+				81CDCD5A43C4C0ACBBEB4CEB /* AlbumTests */,
+				E31E70A2D4A8841FB2CCDCD4 /* AlbumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7117058BD5F702B411B9233E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D4659356243A4BEC0508A5 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EE0B7B3819E25EB2257716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DC2E759BEB18DEA18F73DF /* Assets.xcassets in Resources */,
+				1FF5F473ED25BF9C6A746658 /* page-turn.mp3 in Resources */,
+				43B901F02B743B2BB8C5E614 /* widget_paging_card_1.png in Resources */,
+				A69504D37D59E6CE3F11AF1A /* widget_paging_card_11.png in Resources */,
+				C86F73F35B472BC4E9111DEB /* widget_paging_card_12.png in Resources */,
+				69EADE0BD8D39877271EA011 /* widget_paging_card_13.png in Resources */,
+				BEE74610C53F80F404AB164E /* widget_paging_card_14.png in Resources */,
+				3F00AC7E2B5328D3AA9B47C5 /* widget_paging_card_15.png in Resources */,
+				243B2913693D667FBAAC18D3 /* widget_paging_card_16.png in Resources */,
+				FE70768A0EEA183A528F911D /* widget_paging_card_17.png in Resources */,
+				615BFAF6CB185375A8F88F59 /* widget_paging_card_18.png in Resources */,
+				E7D7EB0152CB633D720B3646 /* widget_paging_card_2.png in Resources */,
+				F983961741A4F0D96714463D /* widget_paging_card_3.png in Resources */,
+				D71F15340C020636D7C4B99C /* widget_paging_card_4.png in Resources */,
+				20622B587C6ED423FCE45EC5 /* widget_paging_card_5.png in Resources */,
+				C6D905E8F41A298B9235287F /* widget_paging_card_6.png in Resources */,
+				A057838DFE236E578363E76A /* widget_paging_card_7.png in Resources */,
+				27F772EB488557FAB0C67EAA /* widget_paging_card_8.png in Resources */,
+				19440A4FE08C662CB0449433 /* widget_paging_card_bg.png in Resources */,
+				227CA69234E0874049EA7D56 /* widget_paging_card_bottom_l.png in Resources */,
+				EB8CA56BCFB6F9D686E6BD7F /* widget_paging_card_bottom_m.png in Resources */,
+				2E9BC543415A8FC6BD004D39 /* widget_paging_card_paper.png in Resources */,
+				2821A2C2AC7280D01C4B41BC /* widget_paging_card_paper_l.png in Resources */,
+				F117EB03DF9ABB5C73679F61 /* widget_paging_card_paper_m.png in Resources */,
+				A96077B9AF44247CBD90170E /* widget_paging_card_top_l.png in Resources */,
+				A96A734CBB90131B9B334DBF /* widget_paging_card_top_m.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E079F58F478745ED0E5C8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2328BBE13BEBC90DBDF069D /* page-turn.mp3 in Resources */,
+				19D16B38DF02AF6EB9F912E2 /* widget_paging_card_1.png in Resources */,
+				AC9E37004FFA2D03656F6E0C /* widget_paging_card_11.png in Resources */,
+				A5BBD0F10347F34C8C414FBD /* widget_paging_card_12.png in Resources */,
+				BFE0841AEB10C4BEB7CDDBF3 /* widget_paging_card_13.png in Resources */,
+				7F67CA35656074EE4B6B4AF9 /* widget_paging_card_14.png in Resources */,
+				154D1D367DCF658C2F9020C6 /* widget_paging_card_15.png in Resources */,
+				17FE8490FB513B06CBE36CE3 /* widget_paging_card_16.png in Resources */,
+				D57EDB369771E34C0B4A1B67 /* widget_paging_card_17.png in Resources */,
+				20C6C81C59884074004E59EE /* widget_paging_card_18.png in Resources */,
+				D6C20B8318F6CCBDD81D236B /* widget_paging_card_2.png in Resources */,
+				B89F2DE3DDFBB9C70C621086 /* widget_paging_card_3.png in Resources */,
+				26F6920BD52DD9A23CA4295A /* widget_paging_card_4.png in Resources */,
+				8DB92C69BD976138812ECC0D /* widget_paging_card_5.png in Resources */,
+				9184A122D41DBE772E2A6297 /* widget_paging_card_6.png in Resources */,
+				FCFF97F0A9A237A374BA853A /* widget_paging_card_7.png in Resources */,
+				22F98F99B7EC12040D6E03E2 /* widget_paging_card_8.png in Resources */,
+				56AE1F08002DB4F967DEBD49 /* widget_paging_card_bg.png in Resources */,
+				A95F9987F7F76C5B5F17BEBC /* widget_paging_card_bottom_l.png in Resources */,
+				F625943B6F183A56303D16C7 /* widget_paging_card_bottom_m.png in Resources */,
+				56B9BBCF7C19897B463EADED /* widget_paging_card_paper.png in Resources */,
+				B2900A22FCB3CBFDF0972D99 /* widget_paging_card_paper_l.png in Resources */,
+				4D5321A53CFBCE33E3164A54 /* widget_paging_card_paper_m.png in Resources */,
+				342929F36BC536FA3F7CF0F0 /* widget_paging_card_top_l.png in Resources */,
+				50342565836B894C3620F20C /* widget_paging_card_top_m.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C39AE7CD3C01CAC7EE50350C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782EFA8BD9887395CD88A58F /* AlbumBook.swift in Sources */,
+				605A8DF0407D52E0E3C27DD7 /* AlbumStore.swift in Sources */,
+				ACBB42E40587E9B8A08D9319 /* AlbumWidget.swift in Sources */,
+				FFC81A0ECD27CA3796E14292 /* TurnPageIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91EC94EA03CFCEEE6E6B40C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E288AF4CC3FD5D0A911C4745 /* AlbumBook.swift in Sources */,
+				934C02FDD5A890AF8823F959 /* AlbumStore.swift in Sources */,
+				DE2C43D87D605D65FEDE4C69 /* FlipCardAlbumApp.swift in Sources */,
+				A598504E465E0A885896FF10 /* TurnPageIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4084C0C8A19BF946B5D9FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFD25EA8D734B11B5B324A8 /* AlbumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93E8AC37FE31F1FA28E2FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2713A2475CDA09C3C535D676 /* AlbumUITests.swift in Sources */,
+				A1664B72AE8FE5079C56468D /* WidgetHostTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59A9748DFFA651023E1F32A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 472E80099E1A6EFC9A6AEEE3 /* AlbumWidget */;
+			targetProxy = AB02675FABA3EAFD99318111 /* PBXContainerItemProxy */;
+		};
+		B3C8A59C48525DB304642E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D10994F1313E58055509E4A0 /* FlipCardAlbum */;
+			targetProxy = 99E9DB4C93D4B6F84431F4FE /* PBXContainerItemProxy */;
+		};
+		B9018CD7AB1812F9D84B84E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D10994F1313E58055509E4A0 /* FlipCardAlbum */;
+			targetProxy = 2A1432F3DA1A8BE31F620659 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BE5BDC1B2F6643C2DDD7EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpkiki.AlbumUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlipCardAlbum;
+			};
+			name = Debug;
+		};
+		11CE459640FDF89B4B1CB756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 11;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = F56Q47DAMX;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "翻页卡册";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27BECF7B19C4BFF87ABFF956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Shared/Album.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpkiki.FlipCardAlbum;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31D272DD85F205B8DA713F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Shared/Album.entitlements;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpkiki.FlipCardAlbum.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EA952A2FCD6C2367A5A386B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Shared/Album.entitlements;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpkiki.FlipCardAlbum.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C6EEAC8F587B95964E3D044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpkiki.AlbumUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlipCardAlbum;
+			};
+			name = Release;
+		};
+		AC8F588906FBC83000EEA0E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 11;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = F56Q47DAMX;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "翻页卡册";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2FDCD438CF105CE3B8F29F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpkiki.AlbumTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlipCardAlbum.app/FlipCardAlbum";
+			};
+			name = Release;
+		};
+		E2CC2E5818B9320E7A4BF12D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Shared/Album.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpkiki.FlipCardAlbum;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAB2406A3540BF7618373D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpkiki.AlbumTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlipCardAlbum.app/FlipCardAlbum";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B79C3CA44886B526BB03BE0 /* Build configuration list for PBXNativeTarget "AlbumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BE5BDC1B2F6643C2DDD7EA1 /* Debug */,
+				8C6EEAC8F587B95964E3D044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		28CFCDEAF0D14AC0A2A96893 /* Build configuration list for PBXNativeTarget "AlbumWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31D272DD85F205B8DA713F4F /* Debug */,
+				7EA952A2FCD6C2367A5A386B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2CF1795CC77273867C179BC1 /* Build configuration list for PBXNativeTarget "AlbumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB2406A3540BF7618373D35 /* Debug */,
+				C2FDCD438CF105CE3B8F29F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C02A41264CD18E63954D7F91 /* Build configuration list for PBXNativeTarget "FlipCardAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CC2E5818B9320E7A4BF12D /* Debug */,
+				27BECF7B19C4BFF87ABFF956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C5B21F765AAE6EA85CBC79DF /* Build configuration list for PBXProject "FlipCardAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11CE459640FDF89B4B1CB756 /* Debug */,
+				AC8F588906FBC83000EEA0E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8930D7CA4585F5E56C68177 /* Project object */;
+}

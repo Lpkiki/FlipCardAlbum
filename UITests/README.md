@@ -1,0 +1,11 @@
+# UI acceptance setup
+
+Run serially on a dedicated disposable simulator, with no concurrent human or agent input. The ordinary suite uses the two-page built-in album. Widget host cases locate an existing widget on the first two Home pages, or add the medium widget through the system gallery if absent. The gallery flow was observed on Chinese iOS 27.2; English labels are supported where observed but have not been executed. A gallery failure is a setup failure, never an animation pass.
+
+`testAHostedMotion` retains before/after screenshots and emits timestamps. Its success means the controls were exercised without bringing the app foreground. It does **not** establish visual animation fidelity. Retain a separate SpringBoard video or intermediate-frame sequence and visually check the fold. App video is separate evidence.
+
+`testPhotoImportsAndPersistence` is opt-in because it chooses the first five PhotosPicker items. Use only a dedicated simulator whose five newest images are the synthetic numbered PNG fixtures, never a personal photo library. Set the test-runner environment `QA_PHOTO_FIXTURES=1` in the test configuration to enable it. With xcodebuild, use the `TEST_RUNNER_QA_PHOTO_FIXTURES=1` environment override. Verify the test ran rather than skipped in the result bundle.
+
+Generate the five synthetic images with `python3 scripts/make-qa-fixtures.py` (Python 3 + Pillow); output is `build/qa-fixtures/`. Import those five PNGs via `xcrun simctl addmedia DEVICE PATH1 PATH2 PATH3 PATH4 PATH5`, then run only `AlbumUITests/AlbumUITests/testPhotoImportsAndPersistence`. Current fixtures are 2400×1800 with transparent borders, visibly numbered 1–5. The test replaces the app album, toggles its background preference, and leaves five photos and page 2 selected. It verifies cancel, single-photo paging, five-photo wraparound, and app relaunch persistence. Separately inspect the shared output PNG dimensions and alpha channel. A successful XCTest page assertion does not prove retained alpha or correct visuals.
+
+Source-02 test evidence and limitations are recorded in `evidence/qa/ISSUES.md`; local evidence is not product source. Exploratory picker/motion cases retain diagnostic captures and must not be counted as import or animation acceptance by their XCTest success alone.

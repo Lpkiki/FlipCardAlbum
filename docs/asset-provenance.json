@@ -1,0 +1,256 @@
+{
+  "apk": "iScreen Android 3.0.40 (local reference, APK excluded)",
+  "assets": [
+    {
+      "file": "widget_paging_card_1.png",
+      "source": "assets/drawable/widget_paging_card_1.webp",
+      "width": 228,
+      "height": 294,
+      "sha256": "532f3e7396f431d3a5dceecd8c47b09b3727cacd8cacebffe13081e8cbe700c6",
+      "png_sha256": "031f98db86cb6f0997ef1aff87918afc2cf3003f2a88029e1aee57cd41f830a9",
+      "mode": "RGB"
+    },
+    {
+      "file": "widget_paging_card_11.png",
+      "source": "assets/drawable/widget_paging_card_11.webp",
+      "width": 228,
+      "height": 294,
+      "sha256": "473e396629fe299dc7795ef294c7ebcdb12245a4821777308bacb5489818315e",
+      "png_sha256": "9843839f914c1852fc117284b6338ec3adad3cfec1569afce8c817adbe7fe728",
+      "mode": "RGB"
+    },
+    {
+      "file": "widget_paging_card_12.png",
+      "source": "assets/drawable/widget_paging_card_12.webp",
+      "width": 228,
+      "height": 294,
+      "sha256": "dc32dc770a1682e122477669b8f8d37cba97ce4eee9c6f0cbbb8e44695affec5",
+      "png_sha256": "6491ff531db4ceda4a70f4c60fd953779d1addf3928f49a523757849a4ad2c03",
+      "mode": "RGB"
+    },
+    {
+      "file": "widget_paging_card_13.png",
+      "source": "assets/drawable/widget_paging_card_13.webp",
+      "width": 228,
+      "height": 294,
+      "sha256": "6327b3e6c525bbeec041801340e1a23c56db4f298004b7cf8da2b56368768d68",
+      "png_sha256": "dd02edd956ed1d13a078b482406a1d9873d96df9205f19a25b23b38cf9434964",
+      "mode": "RGB"
+    },
+    {
+      "file": "widget_paging_card_14.png",
+      "source": "assets/drawable/widget_paging_card_14.webp",
+      "width": 228,
+      "height": 294,
+      "sha256": "a289463c8078d914ca15070cc471a3ffcec0788a6901100bd03a9aa6479b4042",
+      "png_sha256": "0699eb92ee2fa7c7d5d22b8ccce4d6c18545e5665e73428d3eff509bcc2a4362",
+      "mode": "RGB"
+    },
+    {
+      "file": "widget_paging_card_15.png",
+      "source": "assets/drawable/widget_paging_card_15.webp",
+      "width": 228,
+      "height": 294,
+      "sha256": "5e2e7477199a1b882c9e71498271dc62a12a77eeb30d725193a5c50fea564180",
+      "png_sha256": "fde8103963ac57694f437cbdfa8a8ab61fa1f770035776c8c9a1fdaf580e209c",
+      "mode": "RGB"
+    },
+    {
+      "file": "widget_paging_card_16.png",
+      "source": "assets/drawable/widget_paging_card_16.webp",
+      "width": 228,
+      "height": 294,
+      "sha256": "bf58b91568528e9e2619676938d745478da62f67f49b6e57d768f8e29281dd8f",
+      "png_sha256": "c7ed103b9cf1bc4669339300d8eda404b76acf92841843cd2f4e0da65ede536e",
+      "mode": "RGB"
+    },
+    {
+      "file": "widget_paging_card_17.png",
+      "source": "assets/drawable/widget_paging_card_17.webp",
+      "width": 228,
+      "height": 294,
+      "sha256": "05ba2bee30dfdcc246224c830ca95e4cc969b06d14fb39fd238bb272d3e50c1e",
+      "png_sha256": "75185d76d2140d28d77c5dc10adb1520d3de55efe51d9ab2afaec27a023df817",
+      "mode": "RGB"
+    },
+    {
+      "file": "widget_paging_card_18.png",
+      "source": "assets/drawable/widget_paging_card_18.webp",
+      "width": 228,
+      "height": 294,
+      "sha256": "9674ff7f633e507ff34e7441dd7db6e4961f62b61d1884e2ca43bb12cd3ab4f3",
+      "png_sha256": "6277daa44ab17a34c59a0c54d30348505b250e758fff46e3fdebc686d752cc49",
+      "mode": "RGB"
+    },
+    {
+      "file": "widget_paging_card_2.png",
+      "source": "assets/drawable/widget_paging_card_2.webp",
+      "width": 228,
+      "height": 294,
+      "sha256": "f485e667b54471a8e0e02242a2e9db8492043bc05648ea276b1e65108d538ff3",
+      "png_sha256": "da6b7ddfa96a94bbcb2c43d33b9a5df7c7bca00b2f9d054ea6c863dded67838a",
+      "mode": "RGB"
+    },
+    {
+      "file": "widget_paging_card_3.png",
+      "source": "assets/drawable/widget_paging_card_3.webp",
+      "width": 228,
+      "height": 294,
+      "sha256": "181d2b4fed4164635231c76d703ceaf4d78d386bced22b26430eee05ac8b1dc7",
+      "png_sha256": "3fe812625cab50dc640daf2ead93d4e70efe657bde4345b5fee2149d789f2793",
+      "mode": "RGBA",
+      "alpha_range": [
+        254,
+        255
+      ]
+    },
+    {
+      "file": "widget_paging_card_4.png",
+      "source": "assets/drawable/widget_paging_card_4.webp",
+      "width": 228,
+      "height": 294,
+      "sha256": "29c94137adaaf12c775affca90d36ba9f476e3446c17b9a082364d5d5280bf26",
+      "png_sha256": "12a06e7c045b0d8f807056532672e41b5189a5402c6e9f7a3ab9b0d3b4371ea8",
+      "mode": "RGB"
+    },
+    {
+      "file": "widget_paging_card_5.png",
+      "source": "assets/drawable/widget_paging_card_5.webp",
+      "width": 225,
+      "height": 294,
+      "sha256": "1f5b2cf385d95587e5028652d46783c9f70651f35c95138d4a65299697c9311b",
+      "png_sha256": "a8032299b1c038b9a5c1670a25c56f26adc16e0004535a27ed6683436374febf",
+      "mode": "RGB"
+    },
+    {
+      "file": "widget_paging_card_6.png",
+      "source": "assets/drawable/widget_paging_card_6.webp",
+      "width": 225,
+      "height": 294,
+      "sha256": "51325e703308dbe460118a4b5abcfe652c4795220c77c0719e8659d797a3be17",
+      "png_sha256": "60f00be803fb9824a35cbb953c962225cd33972c89cc383809fc59d18cd87761",
+      "mode": "RGB"
+    },
+    {
+      "file": "widget_paging_card_7.png",
+      "source": "assets/drawable/widget_paging_card_7.webp",
+      "width": 228,
+      "height": 294,
+      "sha256": "0a133ac4403aa6799dc18ff971055330a8cfac5d50a81672ba3df3d21026faa0",
+      "png_sha256": "993c58145221f72418962b8ba0b3ed4c9beb14662737cc8e12e309dfe7116a32",
+      "mode": "RGBA",
+      "alpha_range": [
+        32,
+        255
+      ]
+    },
+    {
+      "file": "widget_paging_card_8.png",
+      "source": "assets/drawable/widget_paging_card_8.webp",
+      "width": 228,
+      "height": 294,
+      "sha256": "ac069bcd8b5d04b34ee072d62737fb89621f6cfe33c7449af5de51afc90abea4",
+      "png_sha256": "ce9e0631e54100f22d0690844401693bc205a5087daf7c044772b6d7200f1147",
+      "mode": "RGB"
+    },
+    {
+      "file": "widget_paging_card_bg.png",
+      "source": "assets/drawable/widget_paging_card_bg.webp",
+      "width": 1092,
+      "height": 1146,
+      "sha256": "45879a93beda7fabc9f4f7ee13e9617c5d19bc60fd8556ef469014ad8e571123",
+      "png_sha256": "b28b3f636fca83dbb91731e7f16dc1cb1e09f8b8b0d44d7cc0f111d47e4f2cdb",
+      "mode": "RGB"
+    },
+    {
+      "file": "widget_paging_card_bottom_l.png",
+      "source": "assets/drawable/widget_paging_card_bottom_l.webp",
+      "width": 546,
+      "height": 714,
+      "sha256": "28e53e0648f8ec96dffe1b4ed4909508864de81e6aac877d318eb8f102f80974",
+      "png_sha256": "9a296e3c5175c63f48f0726668f2941ddf6e39755a7397087854f7a646315f73",
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "widget_paging_card_bottom_m.png",
+      "source": "assets/drawable/widget_paging_card_bottom_m.webp",
+      "width": 540,
+      "height": 375,
+      "sha256": "a59979850a1cdba7fd0ff07de11430471add1d9418b49267b181dfaff2ec80f4",
+      "png_sha256": "1d3d047b9a0d417c6516e5b7f74d387d94690025a83b64217435aade6266ab38",
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "widget_paging_card_paper.png",
+      "source": "assets/drawable/widget_paging_card_paper.webp",
+      "width": 522,
+      "height": 627,
+      "sha256": "ad652cba19a9d4a62f725fe7c3c9b61c3c1b4942a63097f727fa026a5b6ddb94",
+      "png_sha256": "b3cf1ea9c28a40bbf67d0242ceb63c66ad4873e7a670878b80d61ee2f5f6eab7",
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        136
+      ]
+    },
+    {
+      "file": "widget_paging_card_paper_l.png",
+      "source": "assets/drawable/widget_paging_card_paper_l.png",
+      "width": 522,
+      "height": 651,
+      "sha256": "af3b8246194dfb2c2aeffe1750f1be8fe166e332ba075177e093f7b85d8cb73b",
+      "png_sha256": "5ac984fe45f7837ec2f358b8b64eead4738c5d6cc13e0f6153e4ee5816bce782",
+      "mode": "P"
+    },
+    {
+      "file": "widget_paging_card_paper_m.png",
+      "source": "assets/drawable/widget_paging_card_paper_m.png",
+      "width": 516,
+      "height": 327,
+      "sha256": "bdfc5c628cf70d767b6a8228c46a5caf394bf2c11bbed2e9aa3c2a17cba2b512",
+      "png_sha256": "9499a3b7a18166beb3d9941237685c78e6e062da6278c68b259966408b37c137",
+      "mode": "P"
+    },
+    {
+      "file": "widget_paging_card_top_l.png",
+      "source": "assets/drawable/widget_paging_card_top_l.webp",
+      "width": 522,
+      "height": 651,
+      "sha256": "b99ef35dcbda1a8451b500d3311e5f28182248078fab6758a0cb680deb6117f0",
+      "png_sha256": "3c836ff45f8cce64c11b8069f3aecb08580f4d9c1221cb93ee4e5b5bc15361c0",
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        136
+      ]
+    },
+    {
+      "file": "widget_paging_card_top_m.png",
+      "source": "assets/drawable/widget_paging_card_top_m.webp",
+      "width": 516,
+      "height": 327,
+      "sha256": "15ed416ea844b69df74e8f83ecf08e3326a6abfc123fef20f13a65b7f0f1d6ac",
+      "png_sha256": "ddcfb215dddd09e875334785a527429bd08939cb3ddb100234ef9c2d7381cb00",
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        136
+      ]
+    },
+    {
+      "file": "page-turn.mp3",
+      "source": "assets/voice/freesound.mp3",
+      "sha256": "5ff01ad58dff6550a3fde41c30384a4cfaad7b87af147e959808e3d91f3413c4",
+      "bytes": 20517
+    }
+  ],
+  "apk_sha256": "f203a1a410243478ac5450226ef22a1a7cb74e979ed9f9091902e529a8d6f7b1"
+}
